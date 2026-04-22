@@ -1,0 +1,47 @@
+/* =========================
+   CONTAINER
+========================= */
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: var(--space-7) var(--space-4);
+}
+
+/* =========================
+   GRID (AUTO-FIT)
+========================= */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--space-4);
+}
+
+/* =========================
+   SECTION SPACING
+========================= */
+
+section {
+  margin-top: var(--space-4);
+}
+
+/* =========================
+   HEADER LAYOUT
+========================= */
+
+.hero {
+  border-bottom: 1px solid var(--border);
+  padding-bottom: var(--space-5);
+}
+
+.hero-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.subtitle {
+  margin-top: var(--space-2);
+  color: var(--text);
+}
